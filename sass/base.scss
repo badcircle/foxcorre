@@ -1,0 +1,189 @@
+@charset "utf-8";
+
+// Import a Google Font
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Nothing+You+Could+Do&display=swap');
+
+// Set your brand colors
+$purple: #8a4d76;
+$pink: #fa7c91;
+$green: #5aa91e;
+$brown: #757763;
+$beige-light: #d0d1cd;
+$beige-lighter: #eff0eb;
+
+// Update Bulma's global variables
+$family-sans-serif: 'Inter', sans-serif;
+$grey-dark: $brown;
+$grey-light: $beige-light;
+$primary: $brown;
+$link: $green;
+$widescreen-enabled: false;
+$fullhd-enabled: false;
+
+// Update some of Bulma's component variables
+$body-background-color: $beige-lighter;
+
+@import '../node_modules/bulma/bulma.sass';
+@import '../node_modules/bulma-extensions/bulma-divider/src/sass/index.sass';
+@import '../node_modules/bulma-extensions/bulma-switch/src/sass/index.sass';
+@import './materialdesignicons.min.css';
+html,
+body {
+  min-height: 100vh;
+  overflow: none;
+}
+.purple {
+    color: $purple;
+}
+#hero {
+  padding: 0;
+  .bg {
+    background-image: url('../img/atlanta-skyline.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: bottom;
+    min-height: 700px;
+    padding: 0;
+    z-index: -2;
+    position: absolute;
+    transition: 3s all ease-out;
+    animation: kennyburns 10s;
+    // filter: saturate(50%) blur(10px) opacity(0.5);
+    // &:hover {
+    //     transition: 0.3s all ease-out;
+    //     filter: saturate(100%) blur(0) opacity(1);
+    // }
+  }
+}
+.wrapped {
+    display: inline-flex;
+    > span {
+      border-bottom: 5px solid $white;
+      border-radius: 1px;
+      display: inline-flex;
+      background-color: $primary;
+      > span {
+        margin-bottom: -8px;
+        transition: 0.1s all ease-in-out;
+        border-bottom: 12px solid orange;
+      }
+    }
+  }
+#hero:hover h1 > span > span {
+  color: orange;
+  border-color: orange !important;
+}
+@keyframes kennyburns {
+  0% {
+    background-position: top;
+    filter: saturate(75%);
+  }
+  100% {
+    background-position: bottom;
+    filter: saturate(100%);
+  }
+}
+.triangle {
+  max-height: 150px;
+  min-width: 100%;
+  position: absolute;
+  // opacity: 0.95;
+//   z-index: -1;
+}
+.triangle polygon {
+  fill: $primary;
+  fill: #eff0eb;
+  z-index: -1;
+}
+
+.display-font {
+  font-family: 'Nothing You Could Do';
+  letter-spacing: -2px;
+  color: orange;
+}
+$desktop: 1024px;
+$tablet: 769px;
+$mobile: 768px;
+.underline-border {
+  @include until($desktop) {
+    border-bottom: 6px solid orange;
+  }
+  @include from($desktop) {
+    border-bottom: 12px solid orange;
+  }
+}
+
+.box {
+  border-radius: 1px;
+}
+
+#footer {
+  background-color: $brown;
+  color: $white;
+  background-image: url(../img/owners.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  min-height: 500px;
+  background-position: bottom right;
+}
+
+.tile {
+  height: calc(100% - 1px);
+  display: block !important;
+  min-height: 275px;
+  background-color: $beige-light;
+  color: $white;
+  z-index: -1;
+  box-shadow: 1px 3px 10px rgba(0,0,0,0.3);
+  @include until($tablet) {
+    margin-right: 0;
+    // margin-bottom: 1px;
+    min-height: 200px;
+  }
+  @include from($tablet) {
+    // margin-right: 1px;
+    // margin-bottom: 1px;
+  }
+  .step {
+    position: absolute;
+    z-index: 1;
+    height: 3rem;
+    width: 3rem;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+    transform: translateX(-4rem) translateY(-4rem);
+    line-height: 3rem;
+    &:before {
+      content: '';
+      position: absolute;
+      height: 100%;
+      width: 100%;
+      background-color: orange;
+      border-radius: 50%;
+      left: 0;
+      z-index: -1;
+    }
+  }
+}
+
+#whyus {
+    position: relative;
+    overflow: hidden;
+    min-height: 660px;
+    .container:first-child {
+        position: absolute;
+        background-image: url("../img/atlanta.jpg");
+        background-repeat: no-repeat;
+        background-position: bottom left;
+        background-size: contain;
+        height: 100%;
+        width: 100%;
+    }
+}
+
+@media screen and (min-width: 768px) {
+  .rwd-break {
+    display: none;
+  }
+}

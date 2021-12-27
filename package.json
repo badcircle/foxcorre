@@ -1,0 +1,25 @@
+{
+  "name": "foxcorre",
+  "version": "1.0.0",
+  "description": "FoxCorRE initial rebuild",
+  "main": "sass/base.scss",
+  "scripts": {
+    "css-build": "node-sass --omit-source-map-url sass/base.scss dist/css/base.css",
+    "css-watch": "npm run css-build -- --watch",
+    "start": "npm run css-watch"
+  },
+  "keywords": [
+    "FoxCorRE"
+  ],
+  "author": "Adam Wood",
+  "license": "ISC",
+  "devDependencies": {
+    "bulma": "^0.9.3",
+    "node-sass": "^7.0.0"
+  },
+  "dependencies": {
+    "@mdi/font": "^6.5.95",
+    "aos": "^2.3.4",
+    "bulma-extensions": "^6.2.7"
+  }
+}
