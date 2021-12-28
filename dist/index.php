@@ -11,6 +11,30 @@
 </head>
 
 <body>
+    <div id="mobile-nav">
+        <div class="card p-6 mt-6" id="mobile-nav-wrapper">
+        <a href="#" class="is-pulled-right has-text-dark"><button class="delete is-large"></button></a>
+        <div class="menu mt-6" style="width: 300px; max-width: 100%;" data-aos="fade-right" data-aos-delay="200">
+            <ul class="menu-list">
+                <li>
+                    <p class="menu-label">General</p>
+                </li>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">F.A.Q.</a></li>
+                <li><a href="#">Brokerage Services</a></li>
+                <div class="menu-label mt-2">Contact</div>
+                <li>
+                    <ul>
+                        <li><a href="#">Schedule consultation</a></li>
+                        <li><a href="#">Investment opportunity</a></li>
+                        <li><a href="#">Send a message</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+        </div>
+    </div>
     <div class="container" id="navigation">
         <div class="section">
             <div class="columns is-mobile is-vcentered">
@@ -26,8 +50,8 @@
                     <nav class="navbar" role="navigation" aria-label="main navigation"
                         style="background-color: transparent !important;">
                         <div class="navbar-brand">
-                            <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false"
-                                data-target="navbar">
+                            <a role="button" class="navbar-burger" href="#mobile-nav" aria-label="menu"
+                                aria-expanded="false" data-target="navbar">
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
@@ -36,12 +60,12 @@
                         <div id="navbar" class="navbar-menu">
                             <div class="navbar-start">
                                 <a class="navbar-item"> Home </a>
-                        
+
                                 <a class="navbar-item"> About </a>
-                        
+
                                 <div class="navbar-item has-dropdown is-hoverable">
                                     <a class="navbar-link"> Contact </a>
-                        
+
                                     <div class="navbar-dropdown">
                                         <a class="navbar-item"> Schedule consultation </a>
                                         <a class="navbar-item"> Investment opportunity </a>
@@ -49,9 +73,9 @@
                                         <a class="navbar-item"> Send a message </a>
                                     </div>
                                 </div>
-                        
+
                                 <a class="navbar-item"> F.A.Q. </a>
-                        
+
                                 <a class="navbar-item"> Brokerage Services </a>
                             </div>
                         </div>
