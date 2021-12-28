@@ -221,6 +221,9 @@ $mobile: 768px;
     @include until($desktop) {
         padding: 1rem 3rem;
     }
+    &.is-active {
+        display: block;
+    }
 }
 
 #mobile-nav-wrapper {

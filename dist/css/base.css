@@ -8180,6 +8180,8 @@ body {
   @media screen and (max-width: 1023px) {
     #mobile-nav {
       padding: 1rem 3rem; } }
+  #mobile-nav.is-active {
+    display: block; }
 
 #mobile-nav-wrapper {
   height: calc(100vh - 12rem);
