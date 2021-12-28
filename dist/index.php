@@ -89,7 +89,7 @@
                         <div class="field">
                             <label class="label">Email</label>
                             <div class="control has-icons-left">
-                              <input class="input" type="email" value="" placeholder="Email" />
+                              <input class="input" name="email" type="email" value="" placeholder="Email" />
                               <span class="icon is-small is-left">
                                 <i class="mdi mdi-email"></i>
                               </span>
@@ -101,7 +101,7 @@
                             <div class="field">
                                 <label class="label">Name</label>
                                 <div class="control has-icons-left">
-                                <input class="input" type="text" value="" placeholder="Name" />
+                                <input class="input" name="name" type="text" value="" placeholder="Name" />
                                 <span class="icon is-small is-left">
                                     <i class="mdi mdi-card-account-mail"></i>
                                 </span>
@@ -112,7 +112,7 @@
                             <div class="field">
                                 <label class="label">Phone</label>
                                 <div class="control has-icons-left">
-                                <input class="input" type="phone" value="" placeholder="Phone" />
+                                <input class="input" name="phone" type="phone" value="" placeholder="Phone" />
                                 <span class="icon is-small is-left">
                                     <i class="mdi mdi-cellphone"></i>
                                 </span>
@@ -215,7 +215,7 @@
         <svg viewBox="0 10 80 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="triangle">
             <polygon style="fill: #757763" points="0 0, 100 0, 0 100" />
         </svg>
-        <svg viewBox="0 -10 80 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="bottom: 0;" class="triangle">
+        <svg viewBox="0 -10 80 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" style="bottom: 0;" class="triangle bottom-triangle" data-aos="fade-down">
             <polygon style="fill: #757763" points="0 84, 0 100, 100 100, 100 0" />
         </svg>
         <div class="container">
@@ -261,7 +261,7 @@
         </div>
     </div>
 
-    <div class="container is-fluid" id="footer">
+    <div class="container is-fluid" id="footer" data-aos="fade-down" data-aos-anchor=".bottom-triangle">
         <div class="container">
             <div class="section">
                 <div class="columns">
@@ -273,7 +273,7 @@
                                 <li><a>About</a></li>
                                 <li><a>F.A.Q.</a></li>
                                 <li><a>Brokerage Services</a></li>
-                                <div class="menu-label">Contact</div>
+                                <div class="menu-label mt-2">Contact</div>
                                 <li>
                                     <ul>
                                         <li><a>Schedule consultation</a></li>
