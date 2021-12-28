@@ -101,6 +101,7 @@ body {
   letter-spacing: -2px;
   color: orange;
 }
+$widescreen: 2448px;
 $desktop: 1024px;
 $tablet: 769px;
 $mobile: 768px;
@@ -122,9 +123,30 @@ $mobile: 768px;
   color: $white;
   background-image: url(../img/owners.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 537px 477px;
   min-height: 500px;
   background-position: bottom right;
+  @include until($tablet) {
+      padding-bottom: 400px;
+  }
+  .menu-label {
+      color: whitesmoke;
+  }
+  .menu-list {
+    color: #fff;
+        a {
+            color: #fff;
+            &:hover {
+                color: #363636
+            }
+        }
+    }
+}
+
+#steps {
+    @include from($widescreen) {
+        padding-bottom: 300px;
+    }
 }
 
 .tile {

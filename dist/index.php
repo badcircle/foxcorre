@@ -154,7 +154,7 @@
     </div>
     </div>
 
-    <div class="container is-fluid has-background-grey-dark is-relative px-0" style="z-index: 0;">
+    <div class="container is-fluid has-background-grey-dark is-relative px-0" style="z-index: 0;" id="stepswrapper">
         <div class="container is-fluid px-0 pb-6">
             <svg viewBox="0 10 80 100" preserveAspectRatio="none" xmlns="http://www.w3.org/2000/svg" class="triangle">
                 <polygon points="0 0, 100 0, 0 100" />
@@ -221,12 +221,12 @@
         <div class="container">
             <div class="columns mt-1">
                 <div class="column has-text-white">
-                    <h1 class="is-size-1-tablet is-size-4-touch is-size-2-desktop mt-6 has-text-left wrapped"><span class="px-6" style="background-color: #8a4d76;">what makes us <span class="display-font ml-3">different</span></span></h1>
+                    <h1 data-aos="fade-right" data-aos-offset="300" class="is-size-1-tablet is-size-4-touch is-size-2-desktop mt-6 has-text-left wrapped"><span class="px-6" style="background-color: #8a4d76;">what makes us <span class="display-font ml-3">different</span></span></h1>
                 </div>
             </div>
             <div class="columns p-6 is-gapless" style="margin-bottom: 150px;">
                 <div class="column">
-                    <div class="card is-radiusless p-6" style="height: 100%;">
+                    <div class="card is-radiusless p-6" style="height: 100%;" data-aos="fade-right" data-aos-delay="250" data-aos-offset="400">
                     <div class="block">
                         <div class="title is-size-5">Experienced acquisition agents</div>
                         <p class="subtitle is-size-6">Why spend all your time looking for real estate investment deals when you can have our licensed Brokerage find the best property matches for your investment portfolio?</p>
@@ -242,7 +242,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="card is-radiusless p-6" style="height: 100%;">
+                    <div class="card is-radiusless p-6" style="height: 100%;" data-aos="fade-left" data-aos-delay="500" data-aos-offset="400">
                     <div class="block">
                         <div class="title is-size-5">Highly rated</div>
                         <p class="subtitle is-size-6">See our ratings &mdash; we are highly rated and well known for our quality and honesty.</p>
@@ -262,11 +262,32 @@
     </div>
 
     <div class="container is-fluid" id="footer">
-        <div class="section">
-            <div class="columns">
-                <div class="column">
-                    <div class="block">
-                        <p>&copy; 2021 FoxCorRE</p>
+        <div class="container">
+            <div class="section">
+                <div class="columns">
+                    <div class="column is-one-half">
+                        <aside class="menu has-text-white p-6">
+                            <ul class="menu-list has-text-white">
+                                <li><p class="menu-label">General</p></li>
+                                <li><a>Home</a></li>
+                                <li><a>About</a></li>
+                                <li><a>F.A.Q.</a></li>
+                                <li><a>Brokerage Services</a></li>
+                                <div class="menu-label">Contact</div>
+                                <li>
+                                    <ul>
+                                        <li><a>Schedule consultation</a></li>
+                                        <li><a>Investment opportunity</a></li>
+                                        <li><a>Send a message</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </aside>
+                    </div>
+                    <div class="column is-one-half">
+                        <div class="block p-6">
+                            <p>&copy; 2021 FoxCorRE</p>
+                        </div>
                     </div>
                 </div>
             </div>

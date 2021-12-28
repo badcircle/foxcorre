@@ -8100,9 +8100,24 @@ body {
   color: white;
   background-image: url(../img/owners.jpg);
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 537px 477px;
   min-height: 500px;
   background-position: bottom right; }
+  @media screen and (max-width: 768px) {
+    #footer {
+      padding-bottom: 400px; } }
+  #footer .menu-label {
+    color: whitesmoke; }
+  #footer .menu-list {
+    color: #fff; }
+    #footer .menu-list a {
+      color: #fff; }
+      #footer .menu-list a:hover {
+        color: #363636; }
+
+@media screen and (min-width: 2448px) {
+  #steps {
+    padding-bottom: 300px; } }
 
 .tile {
   height: calc(100% - 1px);
