@@ -285,7 +285,7 @@
                         </aside>
                     </div>
                     <div class="column is-one-half is-align-self-flex-end">
-                        <div class="block p-4 has-text-dark is-size-7" style="background-color: rgba(255, 255, 255, 0.5);">
+                        <div class="block p-4 has-text-dark is-size-7" style="background-color: rgba(255, 255, 255, 0.75);">
                             <p>Anu Jain and Manesh Hardeo are the owners of FoxCor Real Estate. These Atlanta locals are energized by genuine passion for helping people achieve success with their real estate goals.</p>
                         </div>
                         <div class="block">
