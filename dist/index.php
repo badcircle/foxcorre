@@ -149,7 +149,7 @@
                                 <div class="column" style="align-self: flex-end; margin-bottom: 10px;">
                                     <div class="field has-text-right">
                                         <input id="smsCheckbox" type="checkbox" name="sms" class="checkbox"
-                                            checked="checked">
+                                            checked="checked" />
                                         <label for="smsCheckbox">Receive SMS alerts</label>
                                     </div>
                                 </div>
@@ -171,7 +171,7 @@
                 <div class="column">
                     <h2 class="is-size-2-desktop is-size-4-mobile is-size-3-tablet has-text-centered p-6"><span
                             class="display-font mr-3 underline-border" style="font-size: 125%;">real solutions</span>
-                        <br class="rwd-break">for real estate investors
+                        <br class="rwd-break" />for real estate investors
                     </h2>
                 </div>
             </div>
