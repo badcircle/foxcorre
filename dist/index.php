@@ -12,7 +12,7 @@
   <body>
     <div class="container" id="navigation">
       <div class="section">
-        <div class="columns is-mobile">
+        <div class="columns is-mobile is-vcentered">
           <div class="column is-5-desktop is-9-touch">
             <h1 class="title">
               FoxCorRE
