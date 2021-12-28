@@ -266,7 +266,7 @@
             <div class="section">
                 <div class="columns">
                     <div class="column is-one-half">
-                        <aside class="menu has-text-white p-6">
+                        <aside class="menu has-text-white px-6 pt-6">
                             <ul class="menu-list has-text-white">
                                 <li><p class="menu-label">General</p></li>
                                 <li><a>Home</a></li>
@@ -284,9 +284,12 @@
                             </ul>
                         </aside>
                     </div>
-                    <div class="column is-one-half">
-                        <div class="block p-6">
-                            <p>&copy; 2021 FoxCorRE</p>
+                    <div class="column is-one-half is-align-self-flex-end">
+                        <div class="block p-4 has-text-dark is-size-7" style="background-color: rgba(255, 255, 255, 0.5);">
+                            <p>Anu Jain and Manesh Hardeo are the owners of FoxCor Real Estate. These Atlanta locals are energized by genuine passion for helping people achieve success with their real estate goals.</p>
+                        </div>
+                        <div class="block">
+                            <p>&copy; 2022 FoxCor Real Estate</p>
                         </div>
                     </div>
                 </div>
