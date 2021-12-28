@@ -169,7 +169,7 @@
 
                 <div class="columns is-multiline is-gapless" id="steps">
                     <div class="column is-half">
-                        <div class="tile p-6 has-background-dark first-tile" data-aos="fade-down-right" data-aos-delay="250" data-aos-anchor-placement="center-top">
+                        <div class="tile p-6 has-background-dark first-tile" data-aos="fade-down-right" data-aos-delay="250">
                             <div data-aos="zoom-out" data-aos-delay="550" data-aos-offset="0" data-aos-anchor="#steps"><span class="step">1</span></div>
                             <div class="block">
                                 <div class="title is-size-4 has-text-light" style="text-indent: -48px; margin-left: 48px;"><span class="icon is-medium mr-2"><i class="mdi mdi-home-search mdi-36px" style="margin-right: -136px;"></i></span> Find</div>
@@ -226,7 +226,7 @@
             </div>
             <div class="columns p-6 is-gapless" style="margin-bottom: 150px;">
                 <div class="column">
-                    <div class="card is-radiusless p-6 first-card" style="height: 100%;" data-aos="fade-right" data-aos-delay="250" data-aos-offset="400" data-aos-anchor-placement="top-center">
+                    <div class="card is-radiusless p-6 first-card" style="height: 100%;" data-aos="fade-right" data-aos-delay="250">
                     <div class="block">
                         <div class="title is-size-5">Experienced acquisition agents</div>
                         <p class="subtitle is-size-6">Why spend all your time looking for real estate investment deals when you can have our licensed Brokerage find the best property matches for your investment portfolio?</p>
@@ -242,7 +242,7 @@
                     </div>
                 </div>
                 <div class="column">
-                    <div class="card is-radiusless p-6" style="height: 100%;" data-aos="fade-left" data-aos-delay="500" data-aos-anchor=".first-card">
+                    <div class="card is-radiusless p-6" style="height: 100%;" data-aos="fade-left" data-aos-delay="500">
                     <div class="block">
                         <div class="title is-size-5">Highly rated</div>
                         <p class="subtitle is-size-6">See our ratings &mdash; we are highly rated and well known for our quality and honesty.</p>
