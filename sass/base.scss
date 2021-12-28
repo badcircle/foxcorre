@@ -33,7 +33,7 @@ body {
   overflow: none;
 }
 .purple {
-    color: $purple;
+  color: $purple;
 }
 #hero {
   padding: 0;
@@ -56,19 +56,19 @@ body {
   }
 }
 .wrapped {
+  display: inline-flex;
+  > span {
+    border-bottom: 5px solid $white;
+    border-radius: 1px;
     display: inline-flex;
+    background-color: $primary;
     > span {
-      border-bottom: 5px solid $white;
-      border-radius: 1px;
-      display: inline-flex;
-      background-color: $primary;
-      > span {
-        margin-bottom: -8px;
-        transition: 0.1s all ease-in-out;
-        border-bottom: 12px solid orange;
-      }
+      margin-bottom: -8px;
+      transition: 0.1s all ease-in-out;
+      border-bottom: 12px solid orange;
     }
   }
+}
 #hero:hover h1 > span > span {
   color: orange;
   border-color: orange !important;
@@ -88,7 +88,7 @@ body {
   min-width: 100%;
   position: absolute;
   // opacity: 0.95;
-//   z-index: -1;
+  //   z-index: -1;
 }
 .triangle polygon {
   fill: $primary;
@@ -127,26 +127,26 @@ $mobile: 768px;
   min-height: 500px;
   background-position: bottom right;
   @include until($tablet) {
-      padding-bottom: 400px;
+    padding-bottom: 400px;
   }
   .menu-label {
-      color: whitesmoke;
+    color: whitesmoke;
   }
   .menu-list {
     color: #fff;
-        a {
-            color: #fff;
-            &:hover {
-                color: #363636
-            }
-        }
+    a {
+      color: #fff;
+      &:hover {
+        color: #363636;
+      }
     }
+  }
 }
 
 #steps {
-    @include from($widescreen) {
-        padding-bottom: 300px;
-    }
+  @include from($widescreen) {
+    padding-bottom: 300px;
+  }
 }
 
 .tile {
@@ -156,7 +156,7 @@ $mobile: 768px;
   background-color: $beige-light;
   color: $white;
   z-index: -1;
-  box-shadow: 1px 3px 10px rgba(0,0,0,0.3);
+  box-shadow: 1px 3px 10px rgba(0, 0, 0, 0.3);
   @include until($tablet) {
     margin-right: 0;
     // margin-bottom: 1px;
@@ -190,18 +190,18 @@ $mobile: 768px;
 }
 
 #whyus {
-    position: relative;
-    overflow: hidden;
-    min-height: 660px;
-    .container:first-child {
-        position: absolute;
-        background-image: url("../img/atlanta.jpg");
-        background-repeat: no-repeat;
-        background-position: bottom left;
-        background-size: contain;
-        height: 100%;
-        width: 100%;
-    }
+  position: relative;
+  overflow: hidden;
+  min-height: 660px;
+  .container:first-child {
+    position: absolute;
+    background-image: url('../img/atlanta.jpg');
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    height: 100%;
+    width: 100%;
+  }
 }
 
 @media screen and (min-width: 768px) {

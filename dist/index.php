@@ -36,12 +36,12 @@
                         <div id="navbar" class="navbar-menu">
                             <div class="navbar-start">
                                 <a class="navbar-item"> Home </a>
-
+                        
                                 <a class="navbar-item"> About </a>
-
+                        
                                 <div class="navbar-item has-dropdown is-hoverable">
                                     <a class="navbar-link"> Contact </a>
-
+                        
                                     <div class="navbar-dropdown">
                                         <a class="navbar-item"> Schedule consultation </a>
                                         <a class="navbar-item"> Investment opportunity </a>
@@ -49,9 +49,9 @@
                                         <a class="navbar-item"> Send a message </a>
                                     </div>
                                 </div>
-
+                        
                                 <a class="navbar-item"> F.A.Q. </a>
-
+                        
                                 <a class="navbar-item"> Brokerage Services </a>
                             </div>
                         </div>
@@ -171,7 +171,8 @@
                 <div class="column">
                     <h2 class="is-size-2-desktop is-size-4-mobile is-size-3-tablet has-text-centered p-6"><span
                             class="display-font mr-3 underline-border" style="font-size: 125%;">real solutions</span>
-                        <br class="rwd-break">for real estate investors</h2>
+                        <br class="rwd-break">for real estate investors
+                    </h2>
                 </div>
             </div>
         </div>
@@ -197,7 +198,8 @@
                         <div class="tile p-6 has-background-dark first-tile" data-aos="fade-down-right"
                             data-aos-delay="250">
                             <div data-aos="zoom-out" data-aos-delay="550" data-aos-offset="0" data-aos-anchor="#steps">
-                                <span class="step">1</span></div>
+                                <span class="step">1</span>
+                            </div>
                             <div class="block">
                                 <div class="title is-size-4 has-text-light"
                                     style="text-indent: -48px; margin-left: 48px;"><span class="icon is-medium mr-2"><i
@@ -301,8 +303,8 @@
                     </div>
                 </div>
                 <div class="column is-relative">
-                    <div class="card is-radiusless is-relative p-6" style="height: 100%;"
-                        data-aos="fade-left" data-aos-delay="500">
+                    <div class="card is-radiusless is-relative p-6" style="height: 100%;" data-aos="fade-left"
+                        data-aos-delay="500">
                         <div class="block">
                             <div class="title is-size-5">Off-market properties</div>
                             <p class="subtitle is-size-6">Our Brokerage delivers properties both on and off the Multiple
