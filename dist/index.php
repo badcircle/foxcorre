@@ -294,9 +294,9 @@
                                 self-service as well as full-service brokerage options.</p>
                         </div>
                         <div class="block">
-                            <div class="title is-size-5">Mentorship</div>
-                            <p class="subtitle is-size-6">We guide you with a simplified solution for your real estate
-                                investment outcomes.</p>
+                            <div class="title is-size-5">Highly rated</div>
+                            <p class="subtitle is-size-6">See our ratings &mdash; we are highly rated and well known for
+                                our quality and honesty.</p>
                         </div>
                     </div>
                 </div>
@@ -311,9 +311,9 @@
                                 inbox.</p>
                         </div>
                         <div class="block">
-                            <div class="title is-size-5">Highly rated</div>
-                            <p class="subtitle is-size-6">See our ratings &mdash; we are highly rated and well known for
-                                our quality and honesty.</p>
+                            <div class="title is-size-5">Mentorship</div>
+                            <p class="subtitle is-size-6">We guide you with a simplified solution for your real estate
+                                investment outcomes.</p>
                         </div>
                         <div class="block">
                             <div class="title is-size-5">Integrity</div>
