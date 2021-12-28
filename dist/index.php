@@ -12,8 +12,8 @@
   <body>
     <div class="container" id="navigation">
       <div class="section">
-        <div class="columns">
-          <div class="column is-5">
+        <div class="columns is-mobile">
+          <div class="column is-5-desktop is-9-touch">
             <h1 class="title">
               FoxCorRE
               <span class="icon">
@@ -21,29 +21,38 @@
               </span>
             </h1>
           </div>
-          <div class="column is-7">
-            <div class="navbar-menu">
-              <div class="navbar-start">
-                <a class="navbar-item"> Home </a>
-
-                <a class="navbar-item"> About </a>
-
-                <div class="navbar-item has-dropdown is-hoverable">
-                  <a class="navbar-link"> Contact </a>
-
-                  <div class="navbar-dropdown">
-                    <a class="navbar-item"> Schedule consultation </a>
-                    <a class="navbar-item"> Investment opportunity </a>
-                    <hr class="navbar-divider" />
-                    <a class="navbar-item"> Send a message </a>
-                  </div>
+          <div class="column is-7-desktop is-3-touch">
+            <nav class="navbar" role="navigation" aria-label="main navigation" style="background-color: transparent !important;">
+                <div class="navbar-brand">
+                <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false" data-target="navbar">
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                    <span aria-hidden="true"></span>
+                </a>
                 </div>
-
-                <a class="navbar-item"> F.A.Q. </a>
-
-                <a class="navbar-item"> Brokerage Services </a>
-              </div>
-            </div>
+                <div id="navbar" class="navbar-menu">
+                    <div class="navbar-start">
+                        <a class="navbar-item"> Home </a>
+            
+                        <a class="navbar-item"> About </a>
+            
+                        <div class="navbar-item has-dropdown is-hoverable">
+                            <a class="navbar-link"> Contact </a>
+            
+                            <div class="navbar-dropdown">
+                                <a class="navbar-item"> Schedule consultation </a>
+                                <a class="navbar-item"> Investment opportunity </a>
+                                <hr class="navbar-divider" />
+                                <a class="navbar-item"> Send a message </a>
+                            </div>
+                        </div>
+            
+                        <a class="navbar-item"> F.A.Q. </a>
+            
+                        <a class="navbar-item"> Brokerage Services </a>
+                    </div>
+                </div>
+            </nav>
           </div>
         </div>
         <!-- <div class="is-divider"></div> -->
