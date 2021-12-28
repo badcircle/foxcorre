@@ -280,7 +280,7 @@
             </div>
             <div class="columns p-6 is-gapless" style="margin-bottom: 150px;">
                 <div class="column is-relative">
-                    <div class="card is-radiusless is-relative p-6 first-card" style="height: 100%; left: 1.25rem;"
+                    <div class="card is-radiusless is-relative p-6 first-card" style="height: 100%;"
                         data-aos="fade-right" data-aos-delay="250">
                         <div class="block">
                             <div class="title is-size-5">Experienced acquisition agents</div>
@@ -301,7 +301,7 @@
                     </div>
                 </div>
                 <div class="column is-relative">
-                    <div class="card is-radiusless is-relative p-6" style="height: 100%; top: 3rem; right: 1.25rem;"
+                    <div class="card is-radiusless is-relative p-6" style="height: 100%;"
                         data-aos="fade-left" data-aos-delay="500">
                         <div class="block">
                             <div class="title is-size-5">Off-market properties</div>
