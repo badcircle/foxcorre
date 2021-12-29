@@ -8103,10 +8103,13 @@ body {
   background-repeat: no-repeat;
   background-size: 537px 477px;
   min-height: 500px;
-  background-position: bottom right; }
+  background-position: bottom 0 right 25%; }
   @media screen and (max-width: 768px) {
     #footer {
       padding-bottom: 400px; } }
+  @media screen and (max-width: 1023px) {
+    #footer {
+      background-position: bottom 0 right -100px; } }
   #footer .menu-label {
     color: whitesmoke; }
   #footer .menu-list {

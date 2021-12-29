@@ -126,9 +126,12 @@ $mobile: 768px;
   background-repeat: no-repeat;
   background-size: 537px 477px;
   min-height: 500px;
-  background-position: bottom right;
+  background-position: bottom 0 right 25%;
   @include until($tablet) {
     padding-bottom: 400px;
+  }
+  @include until($desktop) {
+    background-position: bottom 0 right -100px;
   }
   .menu-label {
     color: whitesmoke;
