@@ -79,8 +79,8 @@
             </div>
             <!-- <div class="is-divider"></div> -->
             <div class="columns">
-                <div class="column is-3">
-                    <p class="title is-size-7 purple">a real estate investment & consulting company based in Atlanta</p>
+                <div class="column is-5-desktop is-9-touch">
+                    <p class="title is-size-7 purple" style="margin-left: 69px;">a real estate investment & consulting company based in Atlanta</p>
                 </div>
             </div>
         </div>
