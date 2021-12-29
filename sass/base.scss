@@ -30,7 +30,8 @@ $body-background-color: $beige-lighter;
 html,
 body {
   min-height: 100vh;
-  overflow: none;
+  max-width: 100%;
+  overflow-x: hidden;
 }
 .purple {
   color: $purple;

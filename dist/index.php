@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>FoxCorRE | FoxCore Real Estate</title>
+    <meta name="viewport" content= "width=device-width, user-scalable=no">
     <link rel="stylesheet" href="./css/base.css" />
     <link rel="stylesheet" href="./css/aos.css" />
 </head>
@@ -13,7 +14,7 @@
 <body>
     <div id="mobile-nav">
         <div class="card p-6 mt-6" id="mobile-nav-wrapper">
-            <a onclick="removeClassById('mobile-nav', 'is-active')" class="is-pulled-right has-text-dark"><button class="delete is-large"></button></a>
+            <a onclick="removeClassById('mobile-nav', 'is-active');" class="is-pulled-right has-text-dark"><button class="delete is-large"></button></a>
             <div class="menu mt-6" style="width: 300px; max-width: 100%;" data-aos="fade-right" data-aos-delay="200">
                 <ul class="menu-list">
                     <li>
@@ -40,17 +41,14 @@
             <div class="columns is-mobile is-vcentered">
                 <div class="column is-5-desktop is-9-touch">
                     <h1 class="title">
-                        FoxCorRE
-                        <span class="icon">
-                            <i class="mdi mdi-arrow-top-right-bold-box-outline"></i>
-                        </span>
+                        <img src="./img/logo.svg" style="max-width: 275px;" alt="">
                     </h1>
                 </div>
                 <div class="column is-7-desktop is-3-touch">
                     <nav class="navbar" role="navigation" aria-label="main navigation"
                         style="background-color: transparent !important;">
                         <div class="navbar-brand">
-                            <button role="button" onclick="addClassById('mobile-nav', 'is-active')" class="navbar-burger" aria-label="menu"
+                            <button role="button" onclick="addClassById('mobile-nav', 'is-active');" class="navbar-burger" aria-label="menu"
                                 aria-expanded="false" data-target="navbar">
                                 <span aria-hidden="true"></span>
                                 <span aria-hidden="true"></span>
