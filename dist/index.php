@@ -17,15 +17,12 @@
             <a onclick="removeClassById('mobile-nav', 'is-active');" class="is-pulled-right has-text-dark"><button class="delete is-large"></button></a>
             <div class="menu mt-6" style="width: 300px; max-width: 100%;" data-aos="fade-right" data-aos-delay="200">
                 <ul class="menu-list">
-                    <li>
-                        <p class="menu-label">General</p>
-                    </li>
                     <li><a href="#">Home</a></li>
                     <li><a href="#">About</a></li>
                     <li><a href="#">F.A.Q.</a></li>
                     <li><a href="#">Brokerage Services</a></li>
-                    <div class="menu-label mt-2">Contact</div>
                     <li>
+                        <a>Contact</a>
                         <ul>
                             <li><a href="#">Schedule consultation</a></li>
                             <li><a href="#">Investment opportunity</a></li>
@@ -358,15 +355,12 @@
                         <aside class="menu has-text-white px-6 pt-6" data-aos="fade-right" data-aos-delay="200"
                             data-aos-anchor="#footer">
                             <ul class="menu-list has-text-white">
-                                <li>
-                                    <p class="menu-label">General</p>
-                                </li>
                                 <li><a>Home</a></li>
                                 <li><a>About</a></li>
                                 <li><a>F.A.Q.</a></li>
                                 <li><a>Brokerage Services</a></li>
-                                <div class="menu-label mt-2">Contact</div>
                                 <li>
+                                    <a>Contact</a>
                                     <ul>
                                         <li><a>Schedule consultation</a></li>
                                         <li><a>Investment opportunity</a></li>
